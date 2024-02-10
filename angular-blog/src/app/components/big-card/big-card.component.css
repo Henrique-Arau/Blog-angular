@@ -2,6 +2,7 @@
     border: solid white 2px;
     margin-left: 10px;
     margin-right: 10px;
+
     width: 400px;
     height: 500px;
 
@@ -16,7 +17,14 @@
     font-size: 20px;
 }
 
+.big-card__description{
+    margin-top: 20px;
+}
 .big-card__description > p{
-    margin-top: 10px;
     color: grey ;
+}
+
+.big-card__photo > img{
+    width: 100%;
+    width: 400px;
 }
