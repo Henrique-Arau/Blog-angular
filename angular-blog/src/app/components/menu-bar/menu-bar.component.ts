@@ -4,8 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-menu-bar',
   templateUrl: './menu-bar.component.html',
   styleUrls: [
-  './menu-bar.component.css', 
-  './menu-bar.responsive.component.css']
+  './menu-bar.component.css']
 })
 export class MenuBarComponent implements OnInit {
 

@@ -1,24 +1,18 @@
 <div class="container__big-card">
     <div class="big-card__photo">
         <img 
-        src="https://uploads.toptal.io/blog/image/125413/toptal-blog-image-1518523133236-d2bc894552c77f954f1e5ce48da6604d.png" 
+        src="{{ photoCover }}" 
         alt=""
         height="200px"
         >
     </div>
     <div class="big-card__title">
-        <h1><a href="#">Saiu a nova versão do Angular</a></h1>
+        <h1><a href="#">{{ cardTitle }}</a></h1>
     </div>
     <div class="big-card__description">
         <p><a>
-            A comunidade Angular recebeu com entusiasmo 
-            a tão aguardada versão 17, que transformou 
-            significativamente o framework, ampliando 
-            o foco em desempenho e na experiência da 
-            pessoa desenvolvedora, o que levou essa 
-            atualização a ser conhecida como "Angular 
-            Renaissance", ou seja, Renascimento Angular.
-            </a>
+             {{ cardDescription }}
+           </a>
         </p>
     </div>
 </div>

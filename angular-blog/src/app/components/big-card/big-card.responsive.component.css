@@ -1,9 +1,0 @@
-@media screen and (max-width:600px) {
-    .big-card__photo > img {
-        font-size: 10px;
-    }
-
-    .big-card__title > h1{
-        font-size: 10px;
-    }
-}
